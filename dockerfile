@@ -1,3 +1,4 @@
-FROM emqx/emqx:5.6-latest
+FROM emqx/emqx
 
 EXPOSE 18083
+
