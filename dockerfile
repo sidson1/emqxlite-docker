@@ -1,4 +1,4 @@
-FROM emqx/emqx:5.0-latest
+FROM emqx/emqx:latest
 
 # Create config directory
 RUN mkdir -p /opt/emqx/etc/conf.d
@@ -11,3 +11,4 @@ EXPOSE 18083
 
 # Start EMQX
 CMD ["emqx", "start"]
+
